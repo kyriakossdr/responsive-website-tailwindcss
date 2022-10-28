@@ -1,4 +1,4 @@
-# Netflix Landing Page Clone
+# Responsive Website with Tailwindcss
 
 _Some screenshots_
 ![demo-1](demo/demo-1.png)
