@@ -14,7 +14,7 @@ _Some screenshots_
 
 ## 😎 Watch live
 
-[![<img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" />](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://6356b51bbf27495eb0f7cb8f--superb-starlight-f8685a.netlify.app/)
+[![<img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" />](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://superb-starlight-f8685a.netlify.app/)
 
 ## 🏠 Run Locally
 
