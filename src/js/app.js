@@ -1,24 +1,31 @@
-const toTopBtn = document.querySelector("#top-btn");
-const hamburger = document.querySelector("#hamburger");
-const mobileNavbar = document.querySelector("#mobile-navbar");
-const exitNavbar = document.querySelector("#toggler-mobile-nav");
+const toTopBtn = document.querySelector('#top-btn');
+const hamburger = document.querySelector('#hamburger');
+const mobileNavbar = document.querySelector('#mobile-navbar');
+const exitNavbar = document.querySelector('#toggler-mobile-nav');
 
-toTopBtn.addEventListener("click", () => {
-  window.scrollTo({
-    top: 0,
-    left: 0,
-    behavior: "smooth",
-  });
+let menuActive = false;
+
+toTopBtn.addEventListener('click', () => {
+	window.scrollTo({
+		top: 0,
+		left: 0,
+		behavior: 'smooth',
+	});
 });
 
-hamburger.addEventListener("click", () => {
-  if ((mobileNavbar.style.right = 0)) {
-    mobileNavbar.style.right = "-100%";
-  } else {
-    mobileNavbar.style.right = 0;
-  }
+hamburger.addEventListener('click', () => {
+	if (menuActive) {
+		mobileNavbar.style.right = '-95%';
+		menuActive = false;
+	} else {
+		mobileNavbar.style.right = 0;
+		hamburger.style.display = 'none';
+		menuActive = true;
+	}
 });
 
-exitNavbar.addEventListener("click", () => {
-  mobileNavbar.style.right = "-100%";
+exitNavbar.addEventListener('click', () => {
+	mobileNavbar.style.right = '-96%';
+	menuActive = false;
+	hamburger.style.display = 'block';
 });
