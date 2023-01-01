@@ -25,7 +25,7 @@ hamburger.addEventListener('click', () => {
 });
 
 exitNavbar.addEventListener('click', () => {
-	mobileNavbar.style.right = '-96%';
+	mobileNavbar.style.right = '-95%';
 	menuActive = false;
 	hamburger.style.display = 'block';
 });
