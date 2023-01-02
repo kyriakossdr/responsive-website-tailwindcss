@@ -19,13 +19,11 @@ hamburger.addEventListener('click', () => {
 		menuActive = false;
 	} else {
 		mobileNavbar.style.right = 0;
-		hamburger.style.display = 'none';
 		menuActive = true;
 	}
 });
 
 exitNavbar.addEventListener('click', () => {
-	mobileNavbar.style.right = '-96%';
+	mobileNavbar.style.right = '-95%';
 	menuActive = false;
-	hamburger.style.display = 'block';
 });
