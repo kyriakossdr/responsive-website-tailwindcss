@@ -5,7 +5,7 @@ _Some screenshots_
 
 ![demo-2](demo/demo-2.png)
 
-📌 This website project was part of preparation process as requested from a job I was applied. So they gave me the design files and my goal was to make a copy of the design using html and tailwindcss
+📌 This website project was part of preparation process as requested from a job I had applied. So they gave me the design files and my goal was to make a copy of the design using html and tailwindcss
 
 #### <u>Strong points</u>
 
